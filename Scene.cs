@@ -7,9 +7,9 @@ namespace MonoGame.Engine
 	// TODO: I probably need a scene manager singleton to allow transition between scenes!
 	public abstract class Scene
 	{
-		protected Game _game;
+		protected EngineGame _game;
 
-		public Scene(Game game)
+		public Scene(EngineGame game)
 		{
 			_game = game;
 			Reset();
